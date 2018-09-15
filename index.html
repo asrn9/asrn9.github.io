@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>GeoLocation API form W3 Schools</title>
         <script>
-           var message = document.document.getElementsByName("div");
+           var message = document.document.getElementsById("post");
 
 function getLocation() {
     if (navigator.geolocation) {
@@ -21,7 +22,7 @@ function showPosition(position) {
     <body>
         <div>Click button to get location.</div>
         <button onclick="getLocation()">Get Position</button>
-        <div id="demo"></div>
+        <div id="post"></div>
         
     </body>
 </html>
