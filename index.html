@@ -3,7 +3,7 @@
     <head>
         <title>GeoLocation API form W3 Schools</title>
         <script>
-           var message = document.document.getElementsById("post");
+           var message = document.getElementsById("post");
 
 function getLocation() {
     if (navigator.geolocation) {
@@ -14,7 +14,7 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    message.innerHTML = "Latitude: " + position.coords.latitude + 
     "<br>Longitude: " + position.coords.longitude;
 }
         </script>
