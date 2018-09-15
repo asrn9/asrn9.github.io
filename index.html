@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <script>
-           var x = document.getElementById("demo");
+           var message = document.document.getElementsByName("div");
 
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     } else { 
-        x.innerHTML = "Geolocation is not supported by this browser.";
+        message.innerHTML = "Geolocation is not supported by this browser.";
     }
 }
 
