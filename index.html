@@ -3,13 +3,13 @@
     <head>
         <title>GeoLocation API form W3 Schools</title>
         <script>
-           var message = document.getElementById("post");
+           document.getElementById("post");
 
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     } else { 
-        message.innerHTML = "Geolocation is not supported by this browser.";
+        document.getElementById("post").innerHTML = "Geolocation is not supported by this browser.";
     }
 }
 
